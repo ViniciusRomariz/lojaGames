@@ -81,29 +81,38 @@ export function ProductList({searchValue, ...propriedades}) {
           <SectionProducts key={ProductListNames}>
             <div>
               <h2>{ProductListNames}</h2>
-              <a href="#">Mais Produtos &rarr;</a>
             </div>
 
             <ul>
-              {
-                produtos.filter((produto) => {
+              {produtos
+                .filter((produto) => {
                   const titleNormalized = produto.title.toLowerCase();
                   const searchValueNormalized = searchValue.toLowerCase();
-                  return titleNormalized.includes(searchValueNormalized)
-                }).map((produto) => {
-                  return (
-                    <li key={produto.title}>
-                      <img src={produto.image} />
-                      <h3>{produto.title}</h3>
-                      <p>{"R$ " + parseFloat(produto.price).toFixed(2)}</p>
-                      <button onClick={() => {
-                        router.push(`/productPage?product=${produto.title}`)
-                      }} >Ver produto</button>
-                    </li>
-                  )
+                  return titleNormalized.includes(searchValueNormalized);
                 })
-              }
+                .map((produto) => (
+                  <li key={produto.title} style={{ listStyle: 'none', marginBottom: '20px' }}>
+                      <a href={`/productPage?product=${produto.title}`} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+                        <div>
+                          <img
+                            src={produto.image}
+                            alt={produto.title}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              router.push(`/productPage?product=${produto.title}`);
+                            }}
+                            style={{ cursor: 'pointer', maxWidth: '100%', maxHeight: '8rem'}}
+                          />
+                        </div>
+                        <div style={{ marginTop: '10px', display:  'flex',  flexDirection: 'column' }}>
+                          <p>{produto.title}</p>
+                          <p>{"R$ " + parseFloat(produto.price).toFixed(2)}</p>
+                        </div>
+                     </a>
+                  </li>
+                ))}
             </ul>
+
           </SectionProducts>
         )
 

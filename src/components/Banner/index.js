@@ -1,6 +1,5 @@
 import config from "../../../config.json"
 import styled from 'styled-components';
-import { StyledButton } from '../Button'
 
 const StyledBanner = styled.section`
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${config.imageBanner});
@@ -33,9 +32,8 @@ export function Banner() {
   return (
     <>
       <StyledBanner>
-        <h2>Promoção de Aniversário</h2>
-        <p>Todos os produtos com 20% de desconto</p>
-        <StyledButton>Produtos</StyledButton>
+        <h2>A Sua Loja de Games</h2>
+        <p>Confira as nossas promoções</p>
       </StyledBanner>
     </>
   )

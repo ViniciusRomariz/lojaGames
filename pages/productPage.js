@@ -55,12 +55,12 @@ color: ${({theme}) => theme.PrimaryColorBlue || "var(--cor-1)"};
 
 `;
 
-export default function ProductPage() {
+export default function ProductPage(isLoginSuccessful) {
   const [quantProduct, setQuantProduct] = React.useState(1);
   const router = useRouter()
   const productName = router.query.product
   const ProductListNames = Object.keys(config.productsList)
-
+  const isUserLogged = isLoginSuccessful;
   return (
     <>
       {ProductListNames.map((ProductListNames) => {
@@ -78,6 +78,7 @@ export default function ProductPage() {
                   return (
                     <>
                       <img src={produto.image} />
+                      <div style={{ display: "flex", flexDirection: "column"}}>
                         <div>
                           <h2>{produto.title}</h2>
                           <PriceViewer>{"R$ " + parseFloat(productPriceViewer).toFixed(2)}</PriceViewer>
@@ -102,6 +103,14 @@ export default function ProductPage() {
                             </StyledQuantityOfProductsButton>
                           </SectionQuantityOfProducts>
                         </div>
+                        <div style={isUserLogged ? { display:'flex', flexDirection:'column'} : { display:'none' }}>
+                          <input type="text" name="Nome" />
+                          <input type="email" name="Email" />
+                          <textarea name="Comentarios" cols="10" rows="4" />
+                          <button>Enviar Comentarios</button>
+                          //criar um LI com text salvando usuario e o comentario
+                        </div>
+                      </div>
                     </>
                   )
                 })

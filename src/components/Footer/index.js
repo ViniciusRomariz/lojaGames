@@ -109,31 +109,11 @@ export function Footer() {
     <footer>
     <SectionFooterTop>
       <SectionFooterLogo>
-        <Icon color="#628FD9"  width="3rem" icon="ph:game-controller" />
+        <Icon color="#628FD9"  width="3rem" icon="icon-park:game" />
         <a href="/">
-          <h1>Player<span>One</span></h1>
+          <h1>Loja<span>Games</span></h1>
         </a>
       </SectionFooterLogo>
-      <MenuLinks>
-        <li>
-          <a href="#">Quem somos nós</a>
-        </li>
-        <li>
-          <a href="#">Política de privacidade</a>
-        </li>
-        <li>
-          <a href="#">Programa fidelidade</a>
-        </li>
-        <li>
-          <a href="#">Nossas lojas</a>
-        </li>
-        <li>
-          <a href="#">Quero ser franqueado</a>
-        </li>
-        <li>
-          <a href="#">Anuncie aqui</a>
-        </li>
-      </MenuLinks>
       <FooterForm>
         <h3>Fale conosco</h3>
 
@@ -164,7 +144,7 @@ export function Footer() {
       </FooterForm>
     </SectionFooterTop>
     <SectionFooterBottom>
-      <p>Desenvolvido por Francileudo Oliveira | 2022</p>
+      <p>Trabalho React/NextJS - Aluno:  Vinicius Campos  Romariz</p>
     </SectionFooterBottom>
   </footer>
   )

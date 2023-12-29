@@ -1,119 +1,121 @@
 {
   "imageBanner": "https://images.unsplash.com/photo-1509366812838-b768dc7a8b3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
   "productsList": {
-    "superMario": [
+    "Action Figures Mario Bros": [
       {
         "title": "Boneco Super Mario",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "description": "Mario, o famoso encanador da Nintendo, é conhecido por seu icônico visual, incluindo um boné vermelho, bigode espesso e um traje de operário. O boneco do Super Mario é uma representação adorável do personagem. Ele ostenta um boné vermelho com a letra M inscrita, simbolizando o nome Mario. Seus olhos são expressivos e cheios de determinação, destacados pelo bigode preto que se destaca em seu rosto. Mario veste um macacão azul, uma camisa vermelha e luvas brancas, criando uma imagem clássica e reconhecível. Com suas luvas brancas, barriga rechonchuda e sapatos marrons, o boneco do Super Mario captura a essência do personagem amado, pronto para embarcar em aventuras emocionantes no Reino dos Cogumelos.",
         "image": "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3VwZXIlMjBtYXJpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "price": 50.00
+        "price": 150.00
       },
       {
-        "title": "Bonecos Mario e amigos",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Bonecos Mario's Party",
+        "description": "Os bonecos do Mario Party são representações encantadoras e festivas dos personagens populares da série de jogos Mario Party, conhecida por suas competições divertidas e minigames. Cada boneco captura a essência única dos personagens, trazendo à vida seus traços distintivos de forma lúdica. Com detalhes coloridos e expressões faciais cativantes, esses bonecos refletem a atmosfera animada e festiva dos jogos Mario Party. Vestidos com trajes vibrantes e muitas vezes segurando acessórios que representam os minijogos do jogo, esses bonecos são a personificação da diversão e da camaradagem que define a experiência do Mario Party. Cada personagem, desde Mario até seus amigos e rivais, recebe uma interpretação encantadora e colecionável, criando uma atmosfera de celebração que ressoa com fãs de todas as idades.",
         "image": "https://images.unsplash.com/photo-1566576912317-9f38f640f471?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
+        "price": 180.00
       },
       {
-        "title": "Bonecos Casamento Mario",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
-        "image": "https://images.unsplash.com/photo-1566576912325-fde224c9a1af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
+        "title": "Bonecos Mario 8 bits",
+        "description": "O boneco Mario 8 bits é uma representação clássica do icônico personagem da Nintendo, Mario, em seu formato original de 8 bits. Originário dos primórdios dos videogames, esse Mario é conhecido por seu visual simples e encantador, composto por blocos de cores limitadas que dão forma ao boné vermelho característico, bigode preto marcante, macacão azul e camisa vermelha. Criado para os consoles de videogame da década de 1980, o Mario 8 bits evoca uma nostalgia única para os fãs, lembrando a era dos jogos pixelizados que ajudaram a estabelecer Mario como um ícone duradouro da cultura dos videogames. Essa versão clássica do Mario continua a ser adorada por jogadores de todas as idades e é um símbolo duradouro da história dos videogames.",
+        "image": "https://images.pexels.com/photos/14823950/pexels-photo-14823950.jpeg",
+        "price": 128.00
       },
       {
-        "title": "Boneco Mario Kart",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Bonecos Mario Kart",
+        "description": "Os bonecos do Mario Kart são representações carismáticas dos personagens do universo Mario, adaptadas para os emocionantes circuitos de corrida do popular jogo de kart da Nintendo. Cada boneco possui características únicas e expressivas, capturando a personalidade dos personagens da série Mario de uma maneira divertida e animada. Vestidos em trajes temáticos de corrida, esses bonecos exibem uma variedade de expressões faciais enquanto aceleram por pistas desafiadoras. Desde o encanador Mario até a princesa Peach, o vilão Bowser e outros personagens favoritos, os bonecos do Mario Kart adicionam um toque divertido e colorido à experiência de corrida, tornando o jogo tão amado por fãs de todas as idades. Cada personagem traz suas próprias habilidades especiais e características, proporcionando uma experiência única em cada corrida emocionante.",
         "image": "https://images.unsplash.com/photo-1599409636295-e3cf3538f212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
+        "price": 192.00
       },
       {
-        "title": "Boneco Mario",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Boneco Mario e Banner 8 bits",
+        "description": "O boneco Mario em versão 8 bits é uma adorável representação pixelizada do famoso personagem da Nintendo. Com seu boné vermelho icônico, bigode marcante, macacão azul e camisa vermelha, este Mario remonta à era clássica dos videogames, evocando uma sensação nostálgica para os fãs. Acompanhado por um banner 8 bits, o design gráfico transporta os espectadores de volta aos primórdios dos jogos eletrônicos, adicionando um toque de charme retro. Juntos, o boneco Mario e o banner 8 bits formam uma representação encantadora que celebra a história rica e duradoura do personagem em um estilo visual distintivo.",
         "image": "https://images.unsplash.com/photo-1574387324389-2366ec67539c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
+        "price": 212.00
       },
       {
-        "title": "Boneco Mario com powerup",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Boneco Mario Energizado",
+        "description": "Super Mario desencadeia seu poder mágico, as mãos erguendo-se com energia enquanto faíscas encantadas dançam ao seu redor. O boné vermelho brilha intensamente, sinalizando a iminente liberação de uma magia extraordinária.",
         "image": "https://images.unsplash.com/photo-1606979516934-cd4231e6e6f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
+        "price": 175.00
       }
     ],
-    "consoles": [
+    "Consoles  e Acessórios": [
       {
-        "title": "Console Clássico",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Dream Cast",
+        "description": "O Sega Dreamcast é uma console de videojogos que marcou sua época com inovações e jogos envolventes. Com lançamento em 1998, o Dreamcast destacou-se por sua avançada capacidade gráfica, suporte online pioneiro e uma biblioteca diversificada de jogos. O console apresenta um design distintivo, com sua forma elegante e o icônico logotipo swirl. Equipado com um modem integrado, o Dreamcast permitiu aos jogadores explorar a experiência online antes mesmo de se tornar comum em outras consolas. Apesar de sua vida útil relativamente curta, o Dreamcast continua a ser lembrado como um marco na história dos videojogos, representando uma era de inovação e entretenimento interativo.",
         "image": "https://images.unsplash.com/photo-1605134550917-5fe8cf25a125?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
+        "price": 2000.00
       },
       {
-        "title": "X Box",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Xbox Series X",
+        "description": "O Xbox Series X é a mais recente adição à linha de consoles da Microsoft, lançado em 2020. Com um design robusto e contemporâneo, destaca-se por sua potência de processamento, oferecendo uma experiência de jogo de última geração. A capacidade de reprodução de jogos em resolução 4K, taxa de atualização de 120Hz e tecnologia ray tracing proporcionam visuais deslumbrantes e imersivos. O console também inclui um rápido armazenamento SSD para tempos de carregamento reduzidos, juntamente com a capacidade de alternar rapidamente entre vários jogos graças à tecnologia Quick Resume. Além disso, o Xbox Series X faz parte do ecossistema Xbox Game Pass, proporcionando acesso a uma ampla biblioteca de jogos. Com todas essas características, o Xbox Series X solidifica sua posição como um dos principais consoles de nova geração, oferecendo uma experiência de jogo avançada aos entusiastas e jogadores.",
         "image": "https://images.unsplash.com/photo-1621259182181-1ccb9ec306cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=912&q=80",
-        "price": 50.00
+        "price": 4150.00
       },
       {
-        "title": "Game Boy",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Game Boy 8 bits Clássico",
+        "description": "O Game Boy 8 bits Clássico é uma joia atemporal no mundo dos videogames. Lançado pela Nintendo em 1989, este console portátil é um ícone que definiu uma era. Com seu design compacto e icônico, o Game Boy apresenta uma tela verde monocromática que transporta os jogadores de volta à simplicidade cativante dos jogos de 8 bits. Este dispositivo duradouro permitia aos entusiastas desfrutarem de títulos lendários como Tetris e Super Mario Land em qualquer lugar. Alimentado por pilhas, o Game Boy era verdadeiramente portátil e tornou-se um companheiro inseparável para viagens e aventuras. A durabilidade e a jogabilidade clássica do Game Boy conquistaram gerações de jogadores, cimentando seu lugar na história dos videogames como um verdadeiro clássico.",
         "image": "https://images.unsplash.com/photo-1525799894461-3cfe39b72d69?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
+        "price": 628.00
       },
       {
-        "title": "Controle Clásssico",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Controle SNES Clásssico",
+        "description": "O controle do Super Nintendo Entertainment System (SNES) Clássico é uma peça nostálgica que evoca a era dourada dos videogames. Com um design clássico e elegante, este controle é uma representação fiel do original lançado na década de 1990. Suas curvas ergonômicas proporcionam uma sensação confortável nas mãos, enquanto o layout familiar dos botões - incluindo os botões A, B, X, Y, Start e Select - desencadeia uma onda de lembranças para os entusiastas do SNES. A adição do direcional multidirecional (D-pad) permite uma precisão excepcional em jogos 2D, enquanto os botões coloridos e distintos destacam-se no painel frontal. Conectar este controle ao SNES Clássico não é apenas uma experiência de jogo, mas uma jornada nostálgica de volta aos dias em que o SNES reinava supremo.",
         "image": "https://images.unsplash.com/photo-1531594835867-65b60cc9e4ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
+        "price": 150.00
       },
       {
-        "title": "Plastation 5",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Plastation 5 - Versão Ártico",
+        "description": "O PlayStation 5 - Versão Ártico é uma obra-prima de design e potência. Com um exterior elegante e predominantemente branco, este console representa uma abordagem moderna e sofisticada para a próxima geração de jogos. A combinação de detalhes em preto e azul cria um visual distinto e arrojado. O PlayStation 5 - Versão Ártico não é apenas um console, mas uma expressão de estilo e inovação, incorporando tecnologia avançada para proporcionar uma experiência de jogo envolvente. Seja pelos seus recursos técnicos de última geração, como gráficos em 4K e rastreamento de raios, ou pelo seu design marcante, o PlayStation 5 - Versão Ártico é uma presença imponente no mundo dos consoles de videogame.",
         "image": "https://images.unsplash.com/photo-1507457379470-08b800bebc67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=909&q=80",
-        "price": 50.00
+        "price": 3950.00
       },
       {
-        "title": "Controle console moderno",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Controle PS5 Prata",
+        "description": "O controle do PlayStation 5 (PS5) é uma obra-prima de design e inovação. Com linhas arrojadas e uma estética futurista, este controle representa a vanguarda da experiência de jogo. Seu design ergonômico proporciona conforto durante longas sessões de jogo, enquanto os gatilhos adaptáveis e feedback tátil oferecem uma imersão sem precedentes. Os botões táteis, touchpad e a luz indicadora conferem uma funcionalidade intuitiva, complementando a avançada tecnologia do console PS5. Este controle é mais do que uma ferramenta de jogo; é um elo entre o jogador e um universo de possibilidades interativas, redefinindo a maneira como experimentamos o entretenimento digital.",
         "image": "https://images.unsplash.com/photo-1616801060191-6085bad82f95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
+        "price": 850.00
       }
     ],
-    "Diversos" : [
+    "Miscelânia" : [
       {
-        "title": "Game",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
-        "image": "https://images.unsplash.com/photo-1621296680086-991d687eeddc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-        "price": 50.00
-      },
-      {
-        "title": "Boneco Sonic",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
-        "image": "https://images.unsplash.com/photo-1550747545-c896b5f89ff7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80",
-        "price": 50.00
-      },
-      {
-        "title": "Bonecos diversos",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
-        "image": "https://images.unsplash.com/photo-1566577134665-2c674085abf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
-      },
-      {
-        "title": "Bonecos Donkey Kong",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
-        "image": "https://images.unsplash.com/photo-1566577134650-bbbca4ec35f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
-      },
-      {
-        "title": "Bonecos Pokémon",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
-        "image": "https://images.unsplash.com/photo-1605979257913-1704eb7b6246?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "price": 50.00
-      },
-      {
-        "title": "Pokébola",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin est purus, non aliquam mi facilisis vel. Morbi id varius libero. Ut in lacus elementum magna dictum pharetra. Mauris mollis urna dolor, ut cursus erat ultrices id. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum in faucibus leo. Nam imperdiet mattis elementum. Quisque faucibus lorem nibh, nec porta sem malesuada in. Suspendisse congue suscipit condimentum. Pellentesque dictum lorem est, a viverra sapien volutpat pellentesque. Vivamus auctor purus sit amet diam porta fermentum. Pellentesque ultrices nibh eu risus interdum dictum. Sed faucibus, massa et accumsan cursus, nibh enim fringilla sem, eget euismod diam diam vel urna. Etiam ac volutpat libero, vel sodales ligula.",
+        "title": "Pokebola",
+        "description": "A pokebola colecionável é mais do que apenas um item de decoração; é uma peça emblemática que encapsula a essência e a magia do universo Pokémon. Com um design meticulosamente detalhado, esta pokebola representa a icônica ferramenta utilizada pelos treinadores para capturar e transportar seus adoráveis Pokémon. Feita com materiais de alta qualidade, a pokebola colecionável é um testemunho visual da rica herança da franquia Pokémon.",
         "image": "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
-        "price": 50.00
+        "price": 45.00
+      },
+      {
+        "title": "Bonecos Turma do Sonic",
+        "description": "Os bonecos da Turma do Sonic são figuras encantadoras que capturam a essência da icônica série de jogos e desenhos animados. Com design vibrante e expressões cativantes, esses personagens apresentam uma mistura única de personalidades e habilidades. Desde o carismático Sonic, o ouriço veloz e destemido, até os leais companheiros como Tails, Knuckles e Amy, cada boneco traz consigo a energia contagiante do universo Sonic. Com atenção aos detalhes e qualidade de fabricação, esses bonecos oferecem aos fãs a oportunidade de trazer para casa uma parte do mundo animado e cheio de aventuras da Turma do Sonic. Cada personagem é uma adição colorida e divertida para coleções e reflete o apelo duradouro dessa amada franquia.",
+        "image": "https://images.unsplash.com/photo-1550747545-c896b5f89ff7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80",
+        "price": 80.00
+      },
+      {
+        "title": "Bonecos de Jogos Diversos",
+        "description": "Os bonecos são representações em miniatura de personagens provenientes de uma ampla gama de universos e franquias de jogos. Com atenção meticulosa aos detalhes, essas figuras oferecem uma maneira tangível de trazer para casa os heróis, vilões e criaturas favoritos dos mundos virtuais. Seja explorando o vasto universo de jogos de aventura, mergulhando em mundos de fantasia ou enfrentando desafios em cenários futuristas, esses bonecos são uma expressão tangível da paixão pelo gaming. Com diferentes tamanhos, estilos e poses, os bonecos de jogos diversos são uma forma colecionável e decorativa para os entusiastas, proporcionando uma conexão física com os universos digitais que tanto amamos explorar. Cada boneco conta uma história e evoca memórias dos momentos épicos e emocionantes vividos nos jogos.",
+        "image": "https://images.unsplash.com/photo-1566577134665-2c674085abf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "price": 60.00
+      },
+      {
+        "title": "Chaveiros",
+        "description": "Os chaveiros temáticos de games são pequenos tesouros que trazem consigo a nostalgia, a paixão e a estética única dos universos virtuais. Cada chaveiro é uma homenagem portátil aos jogos favoritos, apresentando ícones, personagens ou logotipos emblemáticos que os fãs reconhecem imediatamente. Feitos com atenção aos detalhes, esses chaveiros capturam a essência dos jogos, permitindo que os entusiastas expressem sua afinidade pela cultura gamer no dia a dia.",
+        "image": "https://images.unsplash.com/photo-1621296680086-991d687eeddc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "price": 25.00
+      },
+      {
+        "title": "Bonecos Família Donkey Kong",
+        "description": "Os bonecos da Família Donkey Kong são adoráveis representações em miniatura dos personagens carismáticos da famosa franquia de jogos da Nintendo. Com destaque para Donkey Kong, o gorila corajoso e líder da turma, e seus companheiros carismáticos como Diddy Kong, Dixie Kong e outros membros da família, esses bonecos trazem à vida a diversão e a aventura características do universo Donkey Kong. Cada figura é habilmente projetada para capturar as características únicas de cada personagem, desde as expressões faciais até os detalhes dos trajes e acessórios. Esses bonecos não apenas servem como peças colecionáveis, mas também como lembranças vívidas das inúmeras jornadas emocionantes vividas nas selvas, minas e ilhas tropicais dos jogos Donkey Kong. Uma adição encantadora para coleções de fãs e uma forma encantadora de celebrar o legado duradouro desta amada série de videogames.",
+        "image": "https://images.unsplash.com/photo-1566577134650-bbbca4ec35f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "price": 58.00
+      },
+      {
+        "title": "Bonecos Diversos de Pokemons",
+        "description": "Esses bonecos são mais do que simples figuras colecionáveis; eles são porta de entrada para relembrar aventuras épicas e momentos emocionantes da jornada Pokémon. Seja exibindo-os orgulhosamente em prateleiras ou recriando batalhas imaginárias, esses bonecos proporcionam aos fãs uma conexão tangível com o universo Pokémon. Com detalhes intrincados, cores vibrantes e uma diversidade de Pokémon disponíveis, essa coleção de bonecos é uma celebração visual e tátil da rica herança e popularidade duradoura de Pokémon. Cada boneco conta uma história única, lembrando aos fãs a magia e a emoção que essas criaturas lendárias trouxeram aos seus corações.",
+        "image": "https://images.unsplash.com/photo-1605979257913-1704eb7b6246?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "price": 98.00
       }
+      
+      
     ]
   }
 }

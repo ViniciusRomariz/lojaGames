@@ -5,9 +5,11 @@
   "license": "MIT",
   "dependencies": {
     "commitizen": "^4.2.5",
+    "firebase": "^10.7.1",
     "next": "^13.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
     "styled-components": "^5.3.6"
   },
   "scripts": {

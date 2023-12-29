@@ -1,8 +1,11 @@
 import { Icon } from '@iconify/react';
 import { SearchBar } from '../SearchBar';
 import styled from 'styled-components';
-import DarkModeSwitch from './DarkModeSwitch';
-import { StyledButton } from '../Button'
+import Modal from 'react-modal';
+import React, { useState } from 'react';
+import { StyledButton } from '../Button';
+import { auth } from '../firebase';
+import { signInWithEmailAndPassword } from "firebase/auth";
 
 const StyledHeader = styled.header`
   display: flex;
@@ -14,7 +17,7 @@ const StyledHeader = styled.header`
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1000;
+ /*  z-index: 1000; */
 
   h1 {
     margin-left: 0.5rem;
@@ -49,20 +52,104 @@ const SectionLogo = styled.div`
 
 `;
 
-export function Header({valorFiltro, setValorFiltro}) {
+Modal.setAppElement('#root');  // Onde '#root' é o ID do elemento raiz da sua aplicação
+
+export function Header({ valorFiltro, setValorFiltro }) {
+  const [email, setEmail] = useState('');
+  const [senha, setSenha] = useState('');
+  const [usuario, setUsuario] = useState('');
+  const [erro, setErro] = useState('');
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLoginSuccessful, setIsLoginSuccessful] = useState(null);
+
+  const handleLogin = async (e) => {
+     e.preventDefault();
+    signInWithEmailAndPassword(auth, email, senha)
+        .then(async (credenciais) => {
+            setUsuario((objetoAtual) => {
+                const retorno = {
+                    ...objetoAtual, 
+                    ["id"]:credenciais.user.uid,  
+                    ["email"]:credenciais.user.email
+                };
+                setIsLoginSuccessful(true);
+                return retorno;
+            });
+        })
+        .catch((error) => {
+          setIsLoginSuccessful(false);
+          console.log(`${error.code} = ${error.message}`);
+          setErro("Login Inválido");
+        });
+        closeModal();
+  };
+
+  const closeModal = () => {
+    setIsLoginSuccessful(null);
+    setIsModalOpen(false);
+    // Limpar os campos do formulário ao fechar o modal
+    setEmail('');
+    setSenha('');
+    
+  };
+
+  return (
+    <StyledHeader>
+      <SectionLogo>
+        <Icon color="#628FD9" width="3rem" icon="icon-park:game" />
+        <a href="./index.html">
+          <h1>Loja<span>Games</span></h1>
+        </a>
+      </SectionLogo>
+      <SearchBar valorFiltro={valorFiltro} setValorFiltro={setValorFiltro} />
+      <div>
+        
+        <StyledButton secondary onClick={() => setIsModalOpen(true)}>{ isLoginSuccessful ? 'Logout' : 'Login' }</StyledButton> 
+        <Modal
+          isOpen={isModalOpen}
+          onRequestClose={closeModal}
+          contentLabel="Login Modal"
+        >
+          <button onClick={closeModal}>close</button>
+          <form onSubmit={handleLogin}>
+            <input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <input
+              type="password"
+              placeholder="Senha"
+              value={senha}
+              onChange={(e) => setSenha(e.target.value)}
+            />
+            <button type="submit">Login</button>
+            <div style={isLoginSuccessful ? { display:'block' } : { display:'none' }}>
+             {isLoginSuccessful ? <p>Login bem-sucedido!</p> : <p>Login não sucedido!</p>}
+            </div>
+          </form>
+        </Modal>
+      </div>
+    </StyledHeader>
+  );
+}
+
+
+
+/* export function Header({valorFiltro, setValorFiltro}) {
   return (
       <StyledHeader>
         <SectionLogo>
-          <Icon color="#628FD9"  width="3rem" icon="ph:game-controller" />
+          <Icon color="#628FD9"  width="3rem" icon="icon-park:game" />
           <a href="./index.html">
-            <h1>Player<span>One</span></h1>
+            <h1>Loja<span>Games</span></h1>
           </a>
         </SectionLogo>
         <SearchBar valorFiltro={valorFiltro} setValorFiltro={setValorFiltro} />
         <div>
          <StyledButton secondary  href="#">Login</StyledButton>
-         <DarkModeSwitch />
         </div>
       </StyledHeader>
   )
-}
+} */
