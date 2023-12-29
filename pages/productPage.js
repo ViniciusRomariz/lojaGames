@@ -5,6 +5,7 @@ import config from "../config.json";
 import styled from 'styled-components';
 import { StyledQuantityOfProductsButton } from '../src/components/Button'
 
+
 const StyledProductSection = styled.section`
 
   display: flex;
@@ -22,11 +23,64 @@ const StyledProductSection = styled.section`
   h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: ${({theme}) => theme.ColorTitle };
+    color: ${({ theme }) => theme.ColorTitle};
   }
 
   P {
-    color: ${({theme}) => theme.ColorTitle };
+    color: ${({ theme }) => theme.ColorTitle};
+  }
+
+`;
+
+const FooterForm = styled.div`
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: ${({theme}) => theme.ColorTitle}
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: ${({theme}) => theme.mainStyles.white || "#fff"};
+    font-family: ${({theme}) => theme.PrimaryColorBlue || "var(--cor-1)"};
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 15px 0 15px 8px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    font-family: ${({theme}) => theme.PrimaryColorBlue || "var(--cor-1)"};
+  }
+
+  textarea {
+    display: block;
+    width: 99%;
+    height: 100px;
+    padding: 8px;
+    border: none;
+    background-color: ${({theme}) => theme.mainStyles.white || "#fff"};
+    outline: none;
+    resize: none;
+    font-family: ${({theme}) => theme.PrimaryColorBlue || "var(--cor-1)"};
+  }
+
+  @media (min-width: 360px) and (max-width: 767px) {
+    width: 100%;
+
   }
 
 `;
@@ -36,7 +90,7 @@ const PriceViewer = styled.p`
   font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: bold;
-  color: ${({theme}) => theme.ColorTitle };
+  color: ${({ theme }) => theme.ColorTitle};
 
 `;
 
@@ -51,7 +105,7 @@ const SectionQuantityOfProducts = styled.div`
 const QuantityOfProducts = styled.p`
 
 margin: 0 0.5rem 0 0.5rem;
-color: ${({theme}) => theme.PrimaryColorBlue || "var(--cor-1)"};
+color: ${({ theme }) => theme.PrimaryColorBlue || "var(--cor-1)"};
 
 `;
 
@@ -68,53 +122,77 @@ export default function ProductPage(isLoginSuccessful) {
 
         return (
           <StyledProductSection>
-              {
-                produtos.filter((produto) => {
-                  const titleNormalized = produto.title;
-                  const productActive = productName;
-                  return titleNormalized == productActive
-                }).map((produto) => {
-                    const [productPriceViewer, setProductPriceViewer] = React.useState(produto.price)
-                  return (
-                    <>
-                      <img src={produto.image} />
-                      <div style={{ display: "flex", flexDirection: "column"}}>
-                        <div>
-                          <h2>{produto.title}</h2>
-                          <PriceViewer>{"R$ " + parseFloat(productPriceViewer).toFixed(2)}</PriceViewer>
-                          <p>{produto.description}</p>
-                          <SectionQuantityOfProducts>
-                            <StyledQuantityOfProductsButton secondary onClick={() => {
-                              if (quantProduct == 1) {
-                                setQuantProduct(1)
-                              } else {
-                                setQuantProduct(quantProduct - 1);
-                                setProductPriceViewer(productPriceViewer - produto.price)
-                              }
-                            }}>
-                              <Icon icon="ant-design:arrow-left-outlined" />
-                            </StyledQuantityOfProductsButton>
-                            <QuantityOfProducts>{quantProduct}</QuantityOfProducts>
-                            <StyledQuantityOfProductsButton secondary onClick={() => {
-                              setQuantProduct(quantProduct + 1);
-                              setProductPriceViewer(productPriceViewer + produto.price)
-                            }}>
+            {
+              produtos.filter((produto) => {
+                const titleNormalized = produto.title;
+                const productActive = productName;
+                return titleNormalized == productActive
+              }).map((produto) => {
+                const [productPriceViewer, setProductPriceViewer] = React.useState(produto.price)
+                return (
+                  <>
+                    <img src={produto.image} />
+                    <div style={{ display: "flex", flexDirection: "column" }}>
+                      <div>
+                        <h2>{produto.title}</h2>
+                        <PriceViewer>{"R$ " + parseFloat(productPriceViewer).toFixed(2)}</PriceViewer>
+                        <p>{produto.description}</p>
+                        <SectionQuantityOfProducts>
+                          <StyledQuantityOfProductsButton secondary onClick={() => {
+                            if (quantProduct == 1) {
+                              setQuantProduct(1)
+                            } else {
+                              setQuantProduct(quantProduct - 1);
+                              setProductPriceViewer(productPriceViewer - produto.price)
+                            }
+                          }}>
+                            <Icon icon="ant-design:arrow-left-outlined" />
+                          </StyledQuantityOfProductsButton>
+                          <QuantityOfProducts>{quantProduct}</QuantityOfProducts>
+                          <StyledQuantityOfProductsButton secondary onClick={() => {
+                            setQuantProduct(quantProduct + 1);
+                            setProductPriceViewer(productPriceViewer + produto.price)
+                          }}>
                             <Icon icon="ant-design:arrow-right-outlined" />
-                            </StyledQuantityOfProductsButton>
-                          </SectionQuantityOfProducts>
-                        </div>
-                        <div style={isUserLogged ? { display:'flex', flexDirection:'column'} : { display:'none' }}>
-                          <input type="text" name="Nome" />
-                          <input type="email" name="Email" />
-                          <textarea name="Comentarios" cols="10" rows="4" />
-                          <button>Enviar Comentarios</button>
-                          //criar um LI com text salvando usuario e o comentario
-                        </div>
+                          </StyledQuantityOfProductsButton>
+                        </SectionQuantityOfProducts>
                       </div>
-                    </>
-                  )
-                })
-              }
+                      <div style={isUserLogged ? { display: 'flex', flexDirection: 'column' } : { display: 'none' }}>
+                        <FooterForm>
+                          <h3>Fale conosco</h3>
+
+                          <form action="submit">
+                            <label>
+                              <input type="text" name="Nome" placeholder="Seu nome" required />
+                            </label>
+
+                            <label>
+                              <input
+                                type="email"
+                                name="Email"
+                                placeholder="seuemail@email.com"
+                                required
+                              />
+                            </label>
+
+                            <label>
+                              <textarea
+                                name="Mensagem"
+                                placeholder="Deixe sua mensagem"
+                                required
+                              ></textarea>
+                            </label>
+
+                            <button secondary type="submit">Enviar mensagem</button>
+                          </form>
+                        </FooterForm>
+                          //criar um LI com text salvando usuario e o comentario
+                      </div>
+                    </div>
+                  </>
+                )
+              })
+            }
           </StyledProductSection>
         )
 

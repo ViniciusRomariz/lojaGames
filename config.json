@@ -1,5 +1,5 @@
 {
-  "imageBanner": "https://images.unsplash.com/photo-1509366812838-b768dc7a8b3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+  "imageBanner": "https://as2.ftcdn.net/v2/jpg/02/42/89/57/1000_F_242895724_e6GEwhlt8NmRrZHMFtc0rM124dQzOGpt.jpg",
   "productsList": {
     "Action Figures Mario Bros": [
       {
@@ -11,7 +11,7 @@
       {
         "title": "Bonecos Mario's Party",
         "description": "Os bonecos do Mario Party são representações encantadoras e festivas dos personagens populares da série de jogos Mario Party, conhecida por suas competições divertidas e minigames. Cada boneco captura a essência única dos personagens, trazendo à vida seus traços distintivos de forma lúdica. Com detalhes coloridos e expressões faciais cativantes, esses bonecos refletem a atmosfera animada e festiva dos jogos Mario Party. Vestidos com trajes vibrantes e muitas vezes segurando acessórios que representam os minijogos do jogo, esses bonecos são a personificação da diversão e da camaradagem que define a experiência do Mario Party. Cada personagem, desde Mario até seus amigos e rivais, recebe uma interpretação encantadora e colecionável, criando uma atmosfera de celebração que ressoa com fãs de todas as idades.",
-        "image": "https://images.unsplash.com/photo-1566576912317-9f38f640f471?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_914351-MLB68997383458_042023-O.webp",
         "price": 180.00
       },
       {
@@ -41,10 +41,16 @@
     ],
     "Consoles  e Acessórios": [
       {
-        "title": "Dream Cast",
-        "description": "O Sega Dreamcast é uma console de videojogos que marcou sua época com inovações e jogos envolventes. Com lançamento em 1998, o Dreamcast destacou-se por sua avançada capacidade gráfica, suporte online pioneiro e uma biblioteca diversificada de jogos. O console apresenta um design distintivo, com sua forma elegante e o icônico logotipo swirl. Equipado com um modem integrado, o Dreamcast permitiu aos jogadores explorar a experiência online antes mesmo de se tornar comum em outras consolas. Apesar de sua vida útil relativamente curta, o Dreamcast continua a ser lembrado como um marco na história dos videojogos, representando uma era de inovação e entretenimento interativo.",
-        "image": "https://images.unsplash.com/photo-1605134550917-5fe8cf25a125?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "title": "Nintendo Switch",
+        "description": "O Nintendo Switch é um console de videogame híbrido desenvolvido pela Nintendo, lançado em março de 2017. Ele se destaca por sua capacidade de ser utilizado tanto como um console de mesa quanto como um dispositivo portátil. O Switch consiste em um tablet com controles destacáveis, conhecidos como Joy-Cons, que podem ser acoplados ao dispositivo ou usados de forma independente. Isso permite que os jogadores alternem entre modos de jogo com facilidade, adaptando-se à sua preferência ou situação.",
+        "image": "https://a-static.mlcdn.com.br/800x560/nintendo-switch-32gb-hac-001-01-1-controle-joy-con-vermelho-e-azul/magazineluiza/043082000/d38296e874a7d5f3e06ff0d8704bb123.jpg",
         "price": 2000.00
+      },
+      {
+        "title": "Plastation 5 - Versão Ártico",
+        "description": "O PlayStation 5 - Versão Ártico é uma obra-prima de design e potência. Com um exterior elegante e predominantemente branco, este console representa uma abordagem moderna e sofisticada para a próxima geração de jogos. A combinação de detalhes em preto e azul cria um visual distinto e arrojado. O PlayStation 5 - Versão Ártico não é apenas um console, mas uma expressão de estilo e inovação, incorporando tecnologia avançada para proporcionar uma experiência de jogo envolvente. Seja pelos seus recursos técnicos de última geração, como gráficos em 4K e rastreamento de raios, ou pelo seu design marcante, o PlayStation 5 - Versão Ártico é uma presença imponente no mundo dos consoles de videogame.",
+        "image": "https://images.unsplash.com/photo-1507457379470-08b800bebc67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=909&q=80",
+        "price": 3950.00
       },
       {
         "title": "Xbox Series X",
@@ -63,12 +69,6 @@
         "description": "O controle do Super Nintendo Entertainment System (SNES) Clássico é uma peça nostálgica que evoca a era dourada dos videogames. Com um design clássico e elegante, este controle é uma representação fiel do original lançado na década de 1990. Suas curvas ergonômicas proporcionam uma sensação confortável nas mãos, enquanto o layout familiar dos botões - incluindo os botões A, B, X, Y, Start e Select - desencadeia uma onda de lembranças para os entusiastas do SNES. A adição do direcional multidirecional (D-pad) permite uma precisão excepcional em jogos 2D, enquanto os botões coloridos e distintos destacam-se no painel frontal. Conectar este controle ao SNES Clássico não é apenas uma experiência de jogo, mas uma jornada nostálgica de volta aos dias em que o SNES reinava supremo.",
         "image": "https://images.unsplash.com/photo-1531594835867-65b60cc9e4ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "price": 150.00
-      },
-      {
-        "title": "Plastation 5 - Versão Ártico",
-        "description": "O PlayStation 5 - Versão Ártico é uma obra-prima de design e potência. Com um exterior elegante e predominantemente branco, este console representa uma abordagem moderna e sofisticada para a próxima geração de jogos. A combinação de detalhes em preto e azul cria um visual distinto e arrojado. O PlayStation 5 - Versão Ártico não é apenas um console, mas uma expressão de estilo e inovação, incorporando tecnologia avançada para proporcionar uma experiência de jogo envolvente. Seja pelos seus recursos técnicos de última geração, como gráficos em 4K e rastreamento de raios, ou pelo seu design marcante, o PlayStation 5 - Versão Ártico é uma presença imponente no mundo dos consoles de videogame.",
-        "image": "https://images.unsplash.com/photo-1507457379470-08b800bebc67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=909&q=80",
-        "price": 3950.00
       },
       {
         "title": "Controle PS5 Prata",
@@ -97,9 +97,9 @@
         "price": 60.00
       },
       {
-        "title": "Chaveiros",
+        "title": "Chaveiros Gamer",
         "description": "Os chaveiros temáticos de games são pequenos tesouros que trazem consigo a nostalgia, a paixão e a estética única dos universos virtuais. Cada chaveiro é uma homenagem portátil aos jogos favoritos, apresentando ícones, personagens ou logotipos emblemáticos que os fãs reconhecem imediatamente. Feitos com atenção aos detalhes, esses chaveiros capturam a essência dos jogos, permitindo que os entusiastas expressem sua afinidade pela cultura gamer no dia a dia.",
-        "image": "https://images.unsplash.com/photo-1621296680086-991d687eeddc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "image": "https://down-br.img.susercontent.com/file/cfe75ebbce6988a17c0b38723460a548",
         "price": 25.00
       },
       {
