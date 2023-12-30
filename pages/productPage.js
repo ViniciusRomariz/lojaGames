@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import config from "../config.json";
 import styled from 'styled-components';
 import { StyledQuantityOfProductsButton } from '../src/components/Button'
+import Comentarios from "../src/components/Comentarios/comentarios";
 
 
 const StyledProductSection = styled.section`
@@ -40,7 +41,7 @@ const FooterForm = styled.div`
   h3 {
     margin-bottom: 1rem;
     font-weight: bold;
-    color: ${({theme}) => theme.ColorTitle}
+    color: ${({ theme }) => theme.ColorTitle}
   }
 
   form {
@@ -52,8 +53,8 @@ const FooterForm = styled.div`
     display: block;
     margin-bottom: 1rem;
     font-size: 1.8rem;
-    color: ${({theme}) => theme.mainStyles.white || "#fff"};
-    font-family: ${({theme}) => theme.PrimaryColorBlue || "var(--cor-1)"};
+    color: ${({ theme }) => theme.mainStyles.white || "#fff"};
+    font-family: ${({ theme }) => theme.PrimaryColorBlue || "var(--cor-1)"};
   }
 
   input {
@@ -63,7 +64,7 @@ const FooterForm = styled.div`
     border: none;
     background-color: #fff;
     outline: none;
-    font-family: ${({theme}) => theme.PrimaryColorBlue || "var(--cor-1)"};
+    font-family: ${({ theme }) => theme.PrimaryColorBlue || "var(--cor-1)"};
   }
 
   textarea {
@@ -72,10 +73,10 @@ const FooterForm = styled.div`
     height: 100px;
     padding: 8px;
     border: none;
-    background-color: ${({theme}) => theme.mainStyles.white || "#fff"};
+    background-color: ${({ theme }) => theme.mainStyles.white || "#fff"};
     outline: none;
     resize: none;
-    font-family: ${({theme}) => theme.PrimaryColorBlue || "var(--cor-1)"};
+    font-family: ${({ theme }) => theme.PrimaryColorBlue || "var(--cor-1)"};
   }
 
   @media (min-width: 360px) and (max-width: 767px) {
@@ -116,88 +117,82 @@ export default function ProductPage(isLoginSuccessful) {
   const ProductListNames = Object.keys(config.productsList)
   const isUserLogged = isLoginSuccessful;
   return (
-    <>
-      {ProductListNames.map((ProductListNames) => {
-        const produtos = config.productsList[ProductListNames]
+    <div style={{ maxHeight: '300px', overflowY: 'auto' }}>
+        {ProductListNames.map((ProductListNames) => {
+          const produtos = config.productsList[ProductListNames]
 
-        return (
-          <StyledProductSection>
-            {
-              produtos.filter((produto) => {
-                const titleNormalized = produto.title;
-                const productActive = productName;
-                return titleNormalized == productActive
-              }).map((produto) => {
-                const [productPriceViewer, setProductPriceViewer] = React.useState(produto.price)
-                return (
-                  <>
-                    <img src={produto.image} />
-                    <div style={{ display: "flex", flexDirection: "column" }}>
-                      <div>
-                        <h2>{produto.title}</h2>
-                        <PriceViewer>{"R$ " + parseFloat(productPriceViewer).toFixed(2)}</PriceViewer>
-                        <p>{produto.description}</p>
-                        <SectionQuantityOfProducts>
-                          <StyledQuantityOfProductsButton secondary onClick={() => {
-                            if (quantProduct == 1) {
-                              setQuantProduct(1)
-                            } else {
-                              setQuantProduct(quantProduct - 1);
-                              setProductPriceViewer(productPriceViewer - produto.price)
-                            }
-                          }}>
-                            <Icon icon="ant-design:arrow-left-outlined" />
-                          </StyledQuantityOfProductsButton>
-                          <QuantityOfProducts>{quantProduct}</QuantityOfProducts>
-                          <StyledQuantityOfProductsButton secondary onClick={() => {
-                            setQuantProduct(quantProduct + 1);
-                            setProductPriceViewer(productPriceViewer + produto.price)
-                          }}>
-                            <Icon icon="ant-design:arrow-right-outlined" />
-                          </StyledQuantityOfProductsButton>
-                        </SectionQuantityOfProducts>
+          return (
+            <StyledProductSection>
+              {
+                produtos.filter((produto) => {
+                  const titleNormalized = produto.title;
+                  const productActive = productName;
+                  return titleNormalized == productActive
+                }).map((produto) => {
+                  const [productPriceViewer, setProductPriceViewer] = React.useState(produto.price)
+                  return (
+                    <>
+                      <img src={produto.image} />
+                      <div style={{ display: "flex", flexDirection: "column" }}>
+                        <div>
+                          <h2>{produto.title}</h2>
+                          <PriceViewer>{"R$ " + parseFloat(productPriceViewer).toFixed(2)}</PriceViewer>
+                          <p>{produto.description}</p>
+                          <SectionQuantityOfProducts>
+                            <StyledQuantityOfProductsButton secondary onClick={() => {
+                              if (quantProduct == 1) {
+                                setQuantProduct(1)
+                              } else {
+                                setQuantProduct(quantProduct - 1);
+                                setProductPriceViewer(productPriceViewer - produto.price)
+                              }
+                            }}>
+                              <Icon icon="ant-design:arrow-left-outlined" />
+                            </StyledQuantityOfProductsButton>
+                            <QuantityOfProducts>{quantProduct}</QuantityOfProducts>
+                            <StyledQuantityOfProductsButton secondary onClick={() => {
+                              setQuantProduct(quantProduct + 1);
+                              setProductPriceViewer(productPriceViewer + produto.price)
+                            }}>
+                              <Icon icon="ant-design:arrow-right-outlined" />
+                            </StyledQuantityOfProductsButton>
+                          </SectionQuantityOfProducts>
+                        </div>
+                        <div style={isUserLogged ? { display: 'flex', flexDirection: 'column' } : { display: 'none' }}>
+                          <FooterForm>
+                            <h3>Deixe sua opinião sobre o Produto</h3>
+
+                            <form action="submit">
+                              <label>
+                                <input type="text" name="Nome" placeholder="Seu nome" required />
+                              </label>
+
+                              <label>
+                                <textarea
+                                  name="Mensagem"
+                                  placeholder="Deixe sua mensagem"
+                                  required
+                                ></textarea>
+                              </label>
+
+                              <button secondary type="submit">Enviar mensagem</button>
+                            </form>
+                          </FooterForm>
+                          <br />
+                          <br />
+                          <Comentarios/>
+
+                        </div>
                       </div>
-                      <div style={isUserLogged ? { display: 'flex', flexDirection: 'column' } : { display: 'none' }}>
-                        <FooterForm>
-                          <h3>Fale conosco</h3>
+                    </>
+                  )
+                })
+              }
+            </StyledProductSection>
+          )
 
-                          <form action="submit">
-                            <label>
-                              <input type="text" name="Nome" placeholder="Seu nome" required />
-                            </label>
+        })}
+    </div>
 
-                            <label>
-                              <input
-                                type="email"
-                                name="Email"
-                                placeholder="seuemail@email.com"
-                                required
-                              />
-                            </label>
-
-                            <label>
-                              <textarea
-                                name="Mensagem"
-                                placeholder="Deixe sua mensagem"
-                                required
-                              ></textarea>
-                            </label>
-
-                            <button secondary type="submit">Enviar mensagem</button>
-                          </form>
-                        </FooterForm>
-                          //criar um LI com text salvando usuario e o comentario
-                      </div>
-                    </div>
-                  </>
-                )
-              })
-            }
-          </StyledProductSection>
-        )
-
-      })}
-
-    </>
   )
 }

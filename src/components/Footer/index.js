@@ -114,34 +114,7 @@ export function Footer() {
           <h1>Loja<span>Games</span></h1>
         </a>
       </SectionFooterLogo>
-      <FooterForm>
-        <h3>Fale conosco</h3>
-
-        <form action="submit">
-          <label>
-            <input type="text" name="Nome" placeholder="Seu nome" required />
-          </label>
-
-          <label>
-            <input
-              type="email"
-              name="Email"
-              placeholder="seuemail@email.com"
-              required
-            />
-          </label>
-
-          <label>
-            <textarea
-              name="Mensagem"
-              placeholder="Deixe sua mensagem"
-              required
-            ></textarea>
-          </label>
-
-          <StyledButton secondary type="submit">Enviar mensagem</StyledButton>
-        </form>
-      </FooterForm>
+      
     </SectionFooterTop>
     <SectionFooterBottom>
       <p>Trabalho React/NextJS - Aluno:  Vinicius Campos  Romariz</p>
