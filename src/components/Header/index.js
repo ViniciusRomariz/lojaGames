@@ -1,11 +1,11 @@
 import { Icon } from '@iconify/react';
-import { SearchBar } from '../SearchBar';
 import styled from 'styled-components';
 import Modal from 'react-modal';
 import React, { useState } from 'react';
 import { StyledButton } from '../Button';
 import { auth } from '../firebase';
 import { signInWithEmailAndPassword } from "firebase/auth";
+import Link from 'next/link';
 
 const StyledHeader = styled.header`
   display: flex;
@@ -52,7 +52,7 @@ const SectionLogo = styled.div`
 
 `;
 
-Modal.setAppElement('#root');  // Onde '#root' é o ID do elemento raiz da sua aplicação
+Modal.setAppElement('#root');  
 
 export function Header({ valorFiltro, setValorFiltro }) {
   const [email, setEmail] = useState('');
@@ -87,7 +87,6 @@ export function Header({ valorFiltro, setValorFiltro }) {
   const closeModal = () => {
     setIsLoginSuccessful(null);
     setIsModalOpen(false);
-    // Limpar os campos do formulário ao fechar o modal
     setEmail('');
     setSenha('');
     
@@ -101,34 +100,45 @@ export function Header({ valorFiltro, setValorFiltro }) {
           <h1>Loja<span>Games</span></h1>
         </a>
       </SectionLogo>
-      <SearchBar valorFiltro={valorFiltro} setValorFiltro={setValorFiltro} />
       <div>
         
         <StyledButton secondary onClick={() => setIsModalOpen(true)}>{ isLoginSuccessful ? 'Logout' : 'Login' }</StyledButton> 
+        <Link href="/create-new-user">Novo aqui?</Link>
         <Modal
           isOpen={isModalOpen}
           onRequestClose={closeModal}
           contentLabel="Login Modal"
-        >
-          <button onClick={closeModal}>close</button>
-          <form onSubmit={handleLogin}>
-            <input
-              type="email"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-            <input
-              type="password"
-              placeholder="Senha"
-              value={senha}
-              onChange={(e) => setSenha(e.target.value)}
-            />
-            <button type="submit">Login</button>
-            <div style={isLoginSuccessful ? { display:'block' } : { display:'none' }}>
-             {isLoginSuccessful ? <p>Login bem-sucedido!</p> : <p>Login não sucedido!</p>}
+        > 
+          
+          <div style={{ color: 'white', display: 'flex', flexDirection: 'column', marginLeft: '40%', marginBottom: '6rem' }}>
+            <form onSubmit={handleLogin}>
+            <div style={{ display: 'flex', flexDirection: 'column', width: '20rem', marginBottom: '1rem' }}>
+              <label for="email">Email</label>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
             </div>
-          </form>
+            <div style={{ display: 'flex', flexDirection: 'column', width: '20rem', marginBottom: '1rem' }}>
+              <label for="senha">Senha</label>
+              <input
+                type="password"
+                placeholder="Senha"
+                value={senha}
+                onChange={(e) => setSenha(e.target.value)}
+              />
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', width: '20rem', height:'20rem', marginTop: '1rem' }}>
+              <button type="submit">Login</button>
+              <div style={isLoginSuccessful ? { display:'block' } : { display:'none' }}>
+              {isLoginSuccessful ? <p>Login bem-sucedido!</p> : <p>Login não sucedido!</p>}
+              </div>
+            </div>
+            </form>
+            
+          </div>
         </Modal>
       </div>
     </StyledHeader>
@@ -137,19 +147,3 @@ export function Header({ valorFiltro, setValorFiltro }) {
 
 
 
-/* export function Header({valorFiltro, setValorFiltro}) {
-  return (
-      <StyledHeader>
-        <SectionLogo>
-          <Icon color="#628FD9"  width="3rem" icon="icon-park:game" />
-          <a href="./index.html">
-            <h1>Loja<span>Games</span></h1>
-          </a>
-        </SectionLogo>
-        <SearchBar valorFiltro={valorFiltro} setValorFiltro={setValorFiltro} />
-        <div>
-         <StyledButton secondary  href="#">Login</StyledButton>
-        </div>
-      </StyledHeader>
-  )
-} */
